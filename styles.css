@@ -1,0 +1,32 @@
+body {
+    background: rgb(200, 200, 200)
+    background-repeat: none;
+    background-size: cover;
+    background-position: top center;
+
+    color: rgb(0,0,0);
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+p, #desc {
+    display: block;
+    float: left;
+    margin-left: 8%;
+    margin-right: 8%;
+    text-align: left;
+    font-size: 18px;
+    max-width: 320px;
+}
+
+#content {
+    display: inline-block;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+
+header {
+	font-size: 30px;
+}
